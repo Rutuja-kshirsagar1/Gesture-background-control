@@ -8,9 +8,9 @@ import pygame
 # -----------------------------
 pygame.mixer.init()
 
-audio1 = "fire.mpeg"
-audio2 = "sharengan audio.mp3"
-audio3 = "galaxy audio.mp3"
+audio1 = "assests/fire.mpeg"
+audio2 = ""assests/sharengan audio.mp3"
+audio3 = ""assests/galaxy audio.mp3"
 
 current_audio = None
 current_bg = None  
@@ -24,9 +24,9 @@ def play_audio_once(file):
 # -----------------------------
 # Load background videos
 # -----------------------------
-bg_video1 = cv2.VideoCapture("ultra.mp4")
-bg_video2 = cv2.VideoCapture("sharengan.mp4")
-bg_video3 = cv2.VideoCapture("galaxy.mp4")
+bg_video1 = cv2.VideoCapture(""assests/ultra.mp4")
+bg_video2 = cv2.VideoCapture(""assests/sharengan.mp4")
+bg_video3 = cv2.VideoCapture(""assests/galaxy.mp4")
 
 # -----------------------------
 # MediaPipe setup
